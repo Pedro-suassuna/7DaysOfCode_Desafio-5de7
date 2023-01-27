@@ -26,4 +26,3 @@ O programa deverá imprimir, por exemplo:
 
 <h2>MATERIAIS COMPLEMENTARES:</h2>
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array?utm_source=ActiveCampaign&utm_medium=email&utm_content=%237DaysOfCode+-+Lógica+JS+5%2F7%3A+Arrays+e+coleções&utm_campaign=%5BALURA+%237days+Of+Code%5D+%28Lógica+de+Programação+-+JavaScript%29+Dia+5%3A+Arrays+e+coleções#propriedades">Array - MDN web docs</a>
-# 7DaysOfCode_Desafio-5de7
