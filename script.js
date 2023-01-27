@@ -10,10 +10,10 @@ var frutas = [],
 
 do {
   let addItemInList = prompt(
-    `Deseja adicionar alguma comida na sua lista de compras? (Digite "sim" ou "não")`
+    `Deseja adicionar alguma comida na sua lista de compras? (Digite "Sim" ou "Não")`
   )
 
-  if (addItemInList == "sim") {
+  if (addItemInList == "Sim") {
     counter++
 
     var food = prompt(`Qual alimento deseja inserir?`)
@@ -47,13 +47,9 @@ do {
     }
   } else {
     if (counter != 0) {
-      console.log(`Lista de compras:`)
-      console.log("Frutas: ", frutas)
-      console.log("Verduras: ", verduras)
-      console.log("Grãos: ", graos)
-      console.log("Carnes: ", carnes)
-      console.log("Debidas: ", bebidas)
-      console.log("Besteiras: ", besteiras)
+      alert(
+        `>Lista de compras:\n Frutas: ${frutas}\n Verduras: ${verduras}\n Grãos: ${graos}\n Carnes: ${carnes}\n Bebidas: ${bebidas}\n Besteiras: ${besteiras}\n`
+      )
     } else {
       alert(
         "Ok, lhe esperamos mais tarde quando decidir montar a sua lista! 😁"
@@ -61,7 +57,7 @@ do {
     }
   }
 
-  if (addItemInList == "sim") {
+  if (addItemInList == "Sim") {
     test = 1
   } else {
     test = 2
